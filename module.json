@@ -1,7 +1,7 @@
 {
   "name": "drag-ruler-integration-for-symbaroum",
   "title": "Drag Ruler Integration Symbaroum",
-  "description": "It support fixed movement speed for 10m",
+  "description": "It support fixed movement speed for 10 cells",
   "author": "Surcof",
   "version": "1.0.0",
   "minimumCoreVersion": "0.8.8",

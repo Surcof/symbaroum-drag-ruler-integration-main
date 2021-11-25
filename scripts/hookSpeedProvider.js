@@ -3,8 +3,7 @@ Hooks.once("dragRuler.ready", (SpeedProvider) => {
     class SymbaroumSpeedProvider extends SpeedProvider {
         get colors() {
             return [
-                {id: "walk", default: 0x00FF00, name: "symbaroum.speeds.walk"},
-                {id: "dash", default: 0xFFFF00, name: "symbaroum.speeds.dash"},
+                {id: "walk", default: 0x00FF00, name: "symbaroum.speeds.walk"},,
                 {id: "run", default: 0xFF8000, name: "symbaroum.speeds.run"}
             ]
         }
@@ -15,7 +14,7 @@ Hooks.once("dragRuler.ready", (SpeedProvider) => {
 
             const ranges = [
                 {range: baseSpeed, color: "walk"},
-                {range: baseSpeed, color: "dash"}
+                {range: baseSpeed*2, color: "dash"}
             ]
 
             return ranges
