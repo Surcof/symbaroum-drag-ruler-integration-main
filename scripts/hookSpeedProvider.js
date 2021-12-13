@@ -1,24 +1,37 @@
 
+Hooks.once('init', async function() {    
+
+    game.settings.register('drag-ruler-integration-for-symbaroum', 'symbaroumMovementSpeed', {
+        name: 'drifs-Movement.Speed',
+        hint: 'drifs-Movement.SpeedHint',
+        scope: 'world',
+        config: true,
+        default: 10,
+        type: Number,
+    });
+});
+
 Hooks.once("dragRuler.ready", (SpeedProvider) => {
     class SymbaroumSpeedProvider extends SpeedProvider {
         get colors() {
             return [
-                {id: "walk", default: 0x00FF00, name: "symbaroum.speeds.walk"},,
-                {id: "run", default: 0xFF8000, name: "symbaroum.speeds.run"}
-            ]
+                {id: "walk", default: 0x00FF00, name: "drifs-speeds.walk"},
+                {id: "run", default: 0xFF8000, name: "drifs-speeds.run"}
+            ];
         }
 
         getRanges(token) {
-            const baseSpeed = 10
+            const baseSpeed = game.settings.get('drag-ruler-integration-for-symbaroum', 'symbaroumMovementSpeed');
             
 
             const ranges = [
                 {range: baseSpeed, color: "walk"},
-                {range: baseSpeed*2, color: "dash"}
-            ]
+                {range: baseSpeed*2, color: "run"}
+            ];
 
-            return ranges
+            return ranges;
         }
     }
-    dragRuler.registerModule("drag-ruler-integration-for-symbaroum", SymbaroumSpeedProvider)
-})
+
+    dragRuler.registerModule("drag-ruler-integration-for-symbaroum", SymbaroumSpeedProvider);
+});
