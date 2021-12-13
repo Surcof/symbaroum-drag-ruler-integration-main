@@ -2,8 +2,8 @@
 Hooks.once('init', async function() {    
 
     game.settings.register('drag-ruler-integration-for-symbaroum', 'symbaroumMovementSpeed', {
-        name: 'drifs-symbaroumMovementSpeed',
-        hint: 'drifs-symbaroumMovementSpeedHint',
+        name: 'drifs-Movement.Speed',
+        hint: 'drifs-Movement.SpeedHint',
         scope: 'world',
         config: true,
         default: 10,
