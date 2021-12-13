@@ -1,0 +1,6 @@
+{
+    "drifs-speeds.walk": "1 action of movement",
+    "drifs-speeds.run": "2 actions of movement",
+    "drifs-symbaroumMovementSpeed": "The rate of movement for 1 action on the battlemap",
+    "drifs-symbaroumMovementSpeedHint": "Note that it only cares about the distance value of the grid, not the units"
+}  
