@@ -1,0 +1,6 @@
+{
+    "drifs-speeds.walk": "1 azione di movimento",
+    "drifs-speeds.run": "2 azioni di movimento",
+    "drifs-Movement.Speed": "Quante unità di movimento sono possibili durante una azione",
+    "drifs-Movement.SpeedHint": "Nota: tiene conto solo della distanza e non dell'unità di misura"
+}  
