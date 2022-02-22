@@ -8,7 +8,7 @@
   "url": "https://github.com/Surcof/symbaroum-drag-ruler-integration-main",
   "download": "https://codeload.github.com/Surcof/symbaroum-drag-ruler-integration-main/zip/refs/heads/master",
   "manifest": "https://raw.githubusercontent.com/Surcof/symbaroum-drag-ruler-integration-main/master/module.json",
-  "compatibleCoreVersion":"0.8.9",
+  "compatibleCoreVersion":"0.9.249",
   "languages": [
     {
       "lang": "en",
