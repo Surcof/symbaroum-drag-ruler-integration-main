@@ -34,4 +34,4 @@ Hooks.once("dragRuler.ready", (SpeedProvider) => {
     }
 
     dragRuler.registerModule("drag-ruler-integration-for-symbaroum", SymbaroumSpeedProvider);
-});
+})
