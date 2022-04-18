@@ -5,9 +5,7 @@
   "author": "Surcof, Bithir",
   "version": "1.1",
   "minimumCoreVersion": "0.8.8",
-  "url": "https://github.com/Surcof/symbaroum-drag-ruler-integration-main",
-  "download": "https://codeload.github.com/Surcof/symbaroum-drag-ruler-integration-main/zip/refs/heads/master",
-  "manifest": "https://raw.githubusercontent.com/Surcof/symbaroum-drag-ruler-integration-main/master/module.json",
+  "systems": ["symbaroum"],
   "compatibleCoreVersion":"0.9.249",
   "languages": [
     {
@@ -28,5 +26,8 @@
     }],
     "scripts": [
       "scripts/hookSpeedProvider.js"
-    ]
+    ],
+  "url": "https://github.com/Surcof/symbaroum-drag-ruler-integration-main",
+  "download": "https://codeload.github.com/Surcof/symbaroum-drag-ruler-integration-main/zip/refs/heads/master",
+  "manifest": "https://raw.githubusercontent.com/Surcof/symbaroum-drag-ruler-integration-main/master/module.json"
 }
