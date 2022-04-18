@@ -28,6 +28,6 @@
       "scripts/hookSpeedProvider.js"
     ],
   "url": "https://github.com/Surcof/symbaroum-drag-ruler-integration-main",
-  "download": "https://codeload.github.com/Surcof/symbaroum-drag-ruler-integration-main/zip/refs/heads/master",
-  "manifest": "https://raw.githubusercontent.com/Surcof/symbaroum-drag-ruler-integration-main/master/module.json"
+  "manifest": "https://raw.githubusercontent.com/Surcof/symbaroum-drag-ruler-integration-main/master/module.json",
+   "download": "https://codeload.github.com/Surcof/symbaroum-drag-ruler-integration-main/zip/refs/heads/master"
 }
